@@ -14,6 +14,7 @@ h1 {
 
 section {
     display: flex;
+    margin: 150px;
 }
 
 .haf-widht {
@@ -23,7 +24,7 @@ section {
 }
 
 .haf-widht img {
-    width: 70%;
+    width: 80%;
 
 }
 
@@ -37,7 +38,27 @@ section {
 
 }
 
+.blue-color {
+    color: rgba(0, 179, 255, 0.857);
+}
+
+
+.download-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 40px;
+    color: white;
+    font-weight 700px;
+    border-radius: 5px;
+}
+
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.foter-side {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
